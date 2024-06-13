@@ -11,6 +11,7 @@ variable "license_file_path" {
 variable "admin_console_password" {
   type        = string
   description = "The password to be used for the KOTS admin console web UI"
+  default = "lola-rules!"
 }
 
 variable "sentry_admin_username" {
